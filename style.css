@@ -1,14 +1,39 @@
-body{
-    background-color: blue;
-}
-p{
-    background-color: red;
-}
-#texto-html {
-             color: blue;   
-}
+#contenedor {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    background-color: rgb(243, 243, 154);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    }
+    .caja::before {
+        content: "Texto fijo"; /* HOLA */
+        color: black;
+        font-weight: bold;
+       }
 
-footer {
-         background-color: blue;
+.elemento {
+
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border: 5px solid; 
+    border-color: blue;
+    
 }
-      
+#e1 {
+    background-color: blue;
+    margin: auto;
+    border-radius: 5% solid; border-color: black;
+}
+#e2 {
+    background-color: blueviolet;
+    margin: auto;
+    border-radius: 5% solid; border-color: brown;
+    
+}
+#e3 {
+    background-color: aquamarine;
+    margin: auto;
+    border-radius: 5%; border-color: blue;
+}
