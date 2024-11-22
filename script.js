@@ -40,7 +40,7 @@ let premium = true;
 
    if (premium) {
     console.log("Tienes una cuenta premium"); //si es premium
-    alert("Bienvenido " + nombreusuario)
+    alert("Bienvenido ")
    } else if (edad >= 18) {
     console.log("no puedes crear una cuenta"); //si no es premium, pero es +18
    }
