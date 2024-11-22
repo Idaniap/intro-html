@@ -3,23 +3,29 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=  , initial-scale=1.0">
+    <meta name="viewport" 
+    content="width=device-width, 
+    initial-scale=1.0">
+    <title>cajitas con texto</title>
     <title>Modas de otoño</title>
-    <link rel="stylesheet" href="style.css">
-</head>  
+    <link rel="stylesheet" href="style.css"> <!--vincula el css-->
 
-<body>
+    </head>  
+    <body>
+    
     <div id="contenedor">
     
-        <div class="elemento" id="e1"></div>  
-        <div class="elemento" id="e2"></div>
-        <div class="elemento" id="e3"></div>
-    </div>
-    
-    <h1 style="color:aqua">Otoño Elegante</h1>
-  
-    <h2>Ropa y accesorios para lucir</h2>
+        <div class="elemento" id="e1">HTML</div> 
+        <div class="elemento" id="e2">CSS</div>
+        <div class="elemento" id="e3">JAVASCRIPT</div>
 
+        </div>
+        
+    
+    <h2 style="color:aqua">Otoño Elegante</h2>
+  
+    <h3>Ropa y accesorios para lucir</h3>
+    
     <p> <strong>La colección de otoño</strong> es ideal para transiciones de estilo, textura y colores que reflejan el ambiente cálido y acogedor 
         de la temporada. Para vestirse en otoño el objtivo es encontrar un balance entre estilo, comodidad y calidez ya que la temperatura suele variar bastante.</p>
     
@@ -41,7 +47,17 @@
      <p><strong>Los blazer</strong> son una excelente prenda de transición, pues son ligeros pero aportan una capa extra. Uno a cuadros o tonos oscuros combina muy bien con el otoño.
         también las camisas a cuados espcialmente en rojo, azúl y verde oscuro, son clásicos del otoño.</p>
     <p><strong>Los abrigo ligeros y trench coats</strong> son ideales para éste clima. Un trench en color beige es  un clásico que combina practicamente con todo.<p></p>
+    
+    <button onclick="saludar()">saludar</button>
+    <button onclick="modoNoche()">Modo Noche</button>
+    <button onclick="modoDia()">Modo Dia</button>
 
-        
+    <p id="texto"> </p>
+    <div id="caja"></div>
+    
+    <article class="articulo"></article>
+   
+
+    <script src="script.js"></script>
 </body>
 </html>

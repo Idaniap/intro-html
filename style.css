@@ -2,8 +2,8 @@
     display: flex;
     gap: 10px;
     padding: 20px;
-    background-color: rgb(243, 243, 154);
-    border: 2px solid #ccc;
+    background-color: rgb(219, 219, 93);
+    border: 2px solid #f2bfbf;
     border-radius: 10px;
     }
     .caja::before {
@@ -18,22 +18,45 @@
     width: 100px;
     margin: auto;
     border: 5px solid; 
-    border-color: blue;
+    border-color: blue;  
     
 }
 #e1 {
-    background-color: blue;
+    background-color: rgb(127, 127, 227);
     margin: auto;
     border-radius: 5% solid; border-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: grid;   /* activa Grid */
+    place-items: center;   /* centra tanto horizontalmente como verticamente */
+    
 }
 #e2 {
-    background-color: blueviolet;
+    background-color: rgb(173, 121, 220);
     margin: auto;
     border-radius: 5% solid; border-color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(158, 9, 9);
+    display: grid;   /* activa Grid */
+    place-items: center;   /* centra tanto horizontalmente como verticamente */
     
 }
 #e3 {
     background-color: aquamarine;
     margin: auto;
     border-radius: 5%; border-color: blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    display: grid;   /* activa Grid */
+    place-items: center;   /* centra tanto horizontalmente como verticamente */
 }
+
