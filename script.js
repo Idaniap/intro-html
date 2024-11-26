@@ -72,3 +72,8 @@ function saludarUsuario(){
     alert("Hola hoy" + inputUsuario);
 }
 
+if(generoFemenino.checked){
+    alert("bienvenida "+inputUsuario);
+}  else if(generoMasculino.checked){
+    alert("bienvenido "+inputUsuario);
+}
