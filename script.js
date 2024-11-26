@@ -67,3 +67,8 @@ function modoDia() {
     document.body.style.backgroundColor = "white";
 }
 
+function saludarUsuario(){
+    let inputUsuario = document.querySelector("#nombre-usuario").value
+    alert("Hola hoy" + inputUsuario);
+}
+

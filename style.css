@@ -18,7 +18,7 @@
     width: 100px;
     margin: auto;
     border: 5px solid; 
-    border-color: blue;  
+    border-color: black;  
     
 }
 #e1 {
@@ -59,4 +59,5 @@
     display: grid;   /* activa Grid */
     place-items: center;   /* centra tanto horizontalmente como verticamente */
 }
+
 
