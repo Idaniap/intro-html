@@ -6,6 +6,7 @@
     <meta name="viewport" 
     content="width=device-width, 
     initial-scale=1.0">
+    
     <title>Cambiar fondo</title>
     <style>
         body {
@@ -16,10 +17,11 @@
     <title>cajitas con texto</title>
     <title>Modas de otoño</title>
     <link rel="stylesheet" href="style.css"> <!--vincula el css-->
+    <title>video en Autoplay</title>
 
     </head>  
     <body>
-        
+       
         <div id="contenedor">
     
         <div class="elemento" id="e1">HTML</div> 
@@ -40,9 +42,9 @@
         <input type="radio" name="genero" id="masculino" value="Masculino">
         <label for="masculino" >Masculino</label>
         
-     <h2 style="color:black">Otoño Elegante</h2>
+     <h1 style="color:black">Otoño Elegante</h1>
   
-    <h3>Ropa y accesorios para lucir</h3>
+    <h2>Ropa y accesorios para lucir</h2>
     
     <p> <strong>La colección de otoño</strong> es ideal para transiciones de estilo, textura y colores que reflejan el ambiente cálido y acogedor 
         de la temporada. Para vestirse en otoño el objtivo es encontrar un balance entre estilo, comodidad y calidez ya que la temperatura suele variar bastante.</p>
@@ -66,6 +68,14 @@
         también las camisas a cuados espcialmente en rojo, azúl y verde oscuro, son clásicos del otoño.</p>
     <p><strong>Los abrigo ligeros y trench coats</strong> son ideales para éste clima. Un trench en color beige es  un clásico que combina practicamente con todo.<p></p>
     
+    <h3>Mi video</h3>
+    <video width="640" height="360" controls autoplay muted loop>
+    <source src="https://youtu.be/PVhVjQfRAY4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+    tu navegador no soporta videos.
+    </video>
+
+<p>
     <button onclick="saludar()">saludar</button>
     <button onclick="modoNoche()">Modo Noche</button>
     <button onclick="modoDia()">Modo Dia</button>
